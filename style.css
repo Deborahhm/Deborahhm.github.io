@@ -262,8 +262,8 @@ h2{
 @media (max-width: 800px) {
     .card{
         flex-wrap: wrap;
-        width:80vw;
-        height:60vw;
+        width:320px;
+        height:240px;
     }
     .card-container{
         flex-wrap:wrap;
