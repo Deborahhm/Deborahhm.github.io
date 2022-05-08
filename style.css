@@ -38,6 +38,9 @@ body{
 @media (min-width: 800px) and (max-width:1200px){
     .header-container{
         background-image: url(images/background2.png);
+        background-position: right; 
+        background-repeat: no-repeat; 
+        background-size: cover;
     }
 
     .name-container{
