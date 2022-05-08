@@ -16,7 +16,7 @@ body{
 
 .header-container{
     height: 100vh; 
-    width: 100vw; 
+    width: 100%; 
     margin:0;
     background-color: #F64668;
     background-image: url(images/background.png.png);
@@ -27,7 +27,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 0 7vw;
+    padding: 0;
     position: relative;
 }
 @media (max-width: 800px) {
