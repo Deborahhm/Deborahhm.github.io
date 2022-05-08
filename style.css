@@ -268,18 +268,6 @@ h2{
     .card-container{
         flex-wrap:wrap;
     }
- @media (max-width: 600px) {
-    .card{
-        flex-wrap: wrap;
-        width:200px;
-        height:160px;
-    }
-    .card-container{
-        flex-wrap:wrap;
-    }
-    
-}
-
 .card-zero{
     background-image: url(images/tamagotchi.png);
 }
