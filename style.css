@@ -274,8 +274,8 @@ h2{
 @media (max-width: 800px) {
     .card{
         flex-wrap: wrap;
-        width:300px;
-        height:200px;
+        width:320px;
+        height:260px;
     }
     .card-container{
         flex-wrap:wrap;
@@ -289,6 +289,42 @@ h2{
 
 .card-first{
     background-image: url(images/landingpage.png);
+}
+
+.card-first-1{
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+    opacity: 0;
+    background-image: url(images/landingpage.png);
+}
+
+.link-segundo-1{
+    visibility: hidden;
+    opacity: 0;
+}
+
+@media(max-width: 800px){
+    .card-first-1{
+        width:320px;
+        height:260px;
+        visibility: visible;
+        opacity: 1;
+    }
+    .link-segundo-1{
+        visibility: visible;
+        opacity:1; 
+    }
+    .card-first{
+        width: 0px;
+        height: 0px;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .link-segundo{
+        visibility: hidden;
+        opacity: 0;
+    }
 }
 
 .card-second{
