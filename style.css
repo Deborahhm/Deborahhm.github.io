@@ -284,14 +284,61 @@ h2{
 }
 
 .card-zero{
+    background-image: url(images/besouroc.png);
+}
+
+.card-zero-after{
+    background-image: url(images/besouroc.png);
+}
+
+.card-zero{
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.link-zero{
+    visibility: hidden;
+    opacity: 0;
+}
+
+@media(max-width: 800px){
+    .card-zero{
+        width:320px;
+        height:260px;
+        visibility: visible;
+        opacity: 1;
+    }
+    .link-zero{
+        visibility: visible;
+        opacity:1; 
+    }
+    .card-zero-after{
+        width: 0px;
+        height: 0px;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .link-zero-after{
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+.card-um{
     background-image: url(images/tamagotchi.png);
 }
 
-.card-first{
+.card-dois{
     background-image: url(images/landingpage.png);
 }
 
-.card-first-1{
+.card-dois-after{
+    background-image: url(images/landingpage.png);
+}
+
+.card-dois{
     width: 0px;
     height: 0px;
     visibility: hidden;
@@ -299,35 +346,38 @@ h2{
     background-image: url(images/landingpage.png);
 }
 
-.link-segundo-1{
+.link-dois{
     visibility: hidden;
     opacity: 0;
 }
 
 @media(max-width: 800px){
-    .card-first-1{
+    .card-dois{
         width:320px;
         height:260px;
         visibility: visible;
         opacity: 1;
+        background-image: url(images/landingpage.png);
     }
-    .link-segundo-1{
+    .link-dois{
         visibility: visible;
         opacity:1; 
     }
-    .card-first{
+    .card-dois-after{
         width: 0px;
         height: 0px;
         visibility: hidden;
         opacity: 0;
+        background-image: url(images/landingpage.png);
+
     }
-    .link-segundo{
+    .link-dois-after{
         visibility: hidden;
         opacity: 0;
     }
 }
 
-.card-second{
+.card-tres{
     background-image: url(images/documentation.png);
 }
 
