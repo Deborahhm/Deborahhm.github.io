@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato&family=Montserrat:ital,wght@0,200;0,400;1,500;1,700&family=Open+Sans:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #6F90A2;
+} 
+
+.main-container{
+    display:flex;
+    flex-direction: column;
+    margin: 10vh auto; 
+    width: 60vw;
+    height: 60vh;
+    background-color: aliceblue;
+    border-radius: 2%;
+}
+
+.main-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 3vh;
+    color: #032436; 
+}
+.main-form{
+    padding: 0 3vh;
+    
+}
+
+input {
+    border-style: none none solid none;
+    border-width: 1px;
+    border-color: #032436;
+    background-color: aliceblue;
+  }
+
+.form-text{
+    width: 80%;
+    padding: 1.2vh 0; 
+}
+
+#mensagem{
+    height: 80%; 
+}
+
+::placeholder{
+    font-size: 1.3em;
+    color: #113B51;
+    font-family: 'Lato', sans-serif;
+}
+
+.submit{
+    margin: 1.2vh 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #032436; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
